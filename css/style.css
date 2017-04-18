@@ -1,0 +1,121 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+.wrap {
+    padding-bottom: 60px;
+}
+
+.main-footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    line-height: 50px;
+}
+
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.nav-categories {
+    margin-top: 20px;
+}
+
+.login-row {
+    margin: 20px 0 20px;
+    border-bottom: 3px solid #e7e9ee;
+}
+
+.comment-count {
+    font-size: large;
+}
+
+.comment-count:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background: #2e9fff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+
+.show-login-form {
+    color: #656c7a;
+    font-weight: bold;
+}
+
+.login-container {
+    position: relative;
+}
+
+.login-form, .registration-form {
+    font-size: 13px;
+    border: 2px solid #7f919e;
+    border-radius: 3px;
+    box-shadow: none;
+    width: 280px;
+    position: absolute;
+    padding: 10px;
+    margin: 0;
+    background-color: #fff;
+    right: 0px;
+    top: 50px;
+    z-index: 999;
+    display: none;
+}
+
+.registration-form {
+    width: 310px;
+}
+
+.quest-form {
+    padding: 5px;
+    border: 2px solid silver;
+    border-radius: 2px;
+    background-color: #dbdfe4;
+}
+
+.avatar {
+    height: 70px;
+    width: 70px;
+}
+.post-content {
+    margin: 10px 0;
+}
+.post-parent {
+    margin-bottom: 20px;
+}
+.children {
+    margin-left: 50px;
+}
+
+.col-body {
+    float: left;
+    min-width: 70%;
+}
+.col-image {
+    float: left;
+    width: 80px;
+}
+.vote-up {
+    color: forestgreen;
+}
+.vote-down {
+    color: red;
+}
+.error-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
